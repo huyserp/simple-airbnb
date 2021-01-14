@@ -1,0 +1,36 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+h3 {
+  margin: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.flat-card {
+  border: 1px solid black;
+  // padding: 16px;
+}
+
+.flat-info {
+  padding: 16px;
+}
+
+.details-box {
+  display: flex;
+}
+
+.details-box p {
+  margin-right: 8px;
+}
+
+.links-actions {
+  border-top: 1px solid black;
+  padding: 8px;
+}
